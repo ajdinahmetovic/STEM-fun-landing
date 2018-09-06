@@ -1,0 +1,41 @@
+.img-fluid{
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-right: 5%;
+  width: 40%;
+  height: 40%;
+  float: left;
+
+}
+
+
+.text-maxi{
+  text-align: left;
+  font-size: 250%;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+  color: #1fb2fc;
+}
+.text-mini {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 150%;
+}
+
+.para{
+
+  margin-top: 10%;
+  margin-left: 2%;
+  width: 80%;
+
+}
+
+@media screen {
+  .img-fluid{
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 5%;
+    width: 40%;
+    height: 40%;
+  }
+}
+

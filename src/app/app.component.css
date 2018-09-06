@@ -1,0 +1,12 @@
+.nav-container{
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background: white;
+  width: 100%;
+}
+
+.navbar-light bg-light{
+  background: white;
+}
