@@ -1,5 +1,5 @@
 <div class="about">
-  <mat-grid-list [cols]="2">
+  <mat-grid-list [cols]="breakpoint" (window:resize)="onResize($event)">
     <mat-grid-tile>
   <div>
 <img class="img-fluid" src="src/assets/imgs/child.png">

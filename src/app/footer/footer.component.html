@@ -1,13 +1,21 @@
-<mat-grid-list [cols]="5" [rowHeight]="290">
+<div style="background: #200122">
+<mat-grid-list [rowHeight]="290" [cols]="breakpoint" (window:resize)="onResize($event)" >
 
   <mat-grid-tile></mat-grid-tile>
   <mat-grid-tile>
-    <img src="src/assets/ad-assets/it_girls_logo.png">
+    <img src="src/assets/ad-assets/it_girls_logo.png" (click)="openITzene()">
   </mat-grid-tile>
   <mat-grid-tile>
-  <img src="src/assets/ad-assets/google-play.png">
+
+    <img src="src/assets/ad-assets/google-play.png" (click)=openNewWindow()>
 </mat-grid-tile>
   <mat-grid-tile>
-    <img src="src/assets/ad-assets/academy_logo.png">
+    <img src="src/assets/ad-assets/academy_logo.png" (click)="openAcademy()">
   </mat-grid-tile>
+
+    <p style="text-align: center; width: 100%; color: #FFFFFF; position: absolute ; bottom: 0%; font-family: 'Quicksand', sans-serif; font-size: 80%; ">
+      Copyright © STEM fun team</p>
+
 </mat-grid-list>
+
+</div>

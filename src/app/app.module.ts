@@ -29,6 +29,7 @@ import { FooterComponent } from './footer/footer.component';
     ScrollToModule.forRoot(),
     MatGridListModule,
     MatCardModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

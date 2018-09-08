@@ -8,10 +8,21 @@
   font-size: 200%;
   font-family: 'Quicksand', sans-serif;
   font-weight: 900;
-  color: #6f0000;
+  color: #58a4b0;
 }
 
 .text-mini {
   font-family: 'Quicksand', sans-serif;
   font-size: 150%;
+}
+
+.img-in{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text-copy {
+  color: #FFFFFF;
+  text-align: center;
 }

@@ -1,7 +1,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Quicksand:light" rel="stylesheet">
 <div class="box">
-  <mat-grid-list [cols]="2">
+  <mat-grid-list [cols]="breakpoint" (window:resize)="onResize($event)">
     <mat-grid-tile>
 <div class="para">
 <p class="text-maxi">What is STEM fun?</p>
@@ -18,7 +18,7 @@
 </div>
     </mat-grid-tile>
     <mat-grid-tile>
-  <div>
+  <div style="width: 100%; text-align: center">
   <img class="img-phone" src="src/assets/imgs/screen.png">
   </div>
     </mat-grid-tile>

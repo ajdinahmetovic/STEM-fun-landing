@@ -1,14 +1,13 @@
 <link href="https://fonts.googleapis.com/css?family=Quicksand:light" rel="stylesheet">
-
-<mat-grid-list [cols]="4">
-  <mat-grid-tile></mat-grid-tile>
+<p class="text-maxi" style="text-align: center"> Team</p>
+<mat-grid-list  [cols]="breakpoint" (window:resize)="onResize($event)">
 
   <mat-grid-tile>
     <mat-card>
       <mat-card-content>
         <img class="img-avatar" src="src/assets/team-assets/lejla.jpg">
         <h1 class="text-maxi">Lejla Omerovic</h1>
-        <h3 class="text-mini">Founder, hoe and etc</h3>
+        <h3 class="text-mini">Founder, UX/UI Designer</h3>
       </mat-card-content>
     </mat-card>
   </mat-grid-tile>
@@ -22,15 +21,12 @@
       </mat-card-content>
     </mat-card>
   </mat-grid-tile>
-</mat-grid-list>
-<mat-grid-list [cols]="4">
 
-  <mat-grid-tile></mat-grid-tile>
 
   <mat-grid-tile>
     <mat-card>
       <mat-card-content>
-        <img class="img-avatar" src="src/assets/team-assets/ines.jpg">
+        <img class="img-in" style="height: 85%; width: 89%; text-align: center;" src="src/assets/team-assets/ines.jpg">
         <h1 class="text-maxi">Ines Madzak</h1>
         <h3 class="text-mini">Content creator</h3>
       </mat-card-content>
@@ -40,13 +36,13 @@
   <mat-grid-tile>
     <mat-card>
       <mat-card-content>
-        <img class="img-avatar" src="src/assets/team-assets/ines.jpg">
+        <img class="img-avatar" src="src/assets/team-assets/selma.png">
         <h1 class="text-maxi">Selma Kovacevic</h1>
         <h3 class="text-mini">Designer</h3>
       </mat-card-content>
     </mat-card>
   </mat-grid-tile>
 
-
-
 </mat-grid-list>
+
+

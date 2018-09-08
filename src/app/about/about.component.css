@@ -15,7 +15,7 @@
   font-size: 250%;
   font-family: 'Quicksand', sans-serif;
   font-weight: 900;
-  color: #1fb2fc;
+  color: #58a4b0;
 }
 .text-mini {
   font-family: 'Quicksand', sans-serif;
@@ -30,7 +30,13 @@
 .img-phone{
   width: 50%;
   height: 50%;
-  margin-left: 10%;
+  text-align: center;
+
 }
 
+mat-grid-tile {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
 
