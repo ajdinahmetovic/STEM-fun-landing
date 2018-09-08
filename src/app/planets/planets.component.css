@@ -1,0 +1,38 @@
+
+
+.mat-grid-tile .mat-grid-tile-footer, .mat-grid-tile .mat-grid-tile-header {
+  position: center;
+  background: #FFFFFF;
+  color: black;
+
+}
+.text-inside{
+  position: absolute;
+  text-align: center;
+}
+
+.text-maxi{
+  text-align: left;
+  font-size: 250%;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+  color: #1fb2fc;
+}
+
+.text-mini {
+  margin-top: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 150%;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  position: center;
+}
+
+.container-box {
+  text-align: center;
+}

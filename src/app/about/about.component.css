@@ -1,9 +1,7 @@
 .para{
   margin-top: 10%;
   margin-left: 3%;
-  width: 50%;
-  float: left;
-
+  width: 100%;
 }
 /*
 @media screen {
@@ -30,49 +28,9 @@
 }
 
 .img-phone{
-  width: 20%;
-  height: 20% ;
+  width: 50%;
+  height: 50%;
   margin-left: 10%;
 }
 
-@media screen {
-
-  .para{
-    margin-top: 10%;
-    margin-left: 3%;
-    width: 50%;
-
-
-  }
-  /*
-  @media screen {
-    .para{
-      width: 100%;
-    }
-  }
-  */
-  .text-maxi{
-    text-align: left;
-    font-size: 250%;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 900;
-    color: #1fb2fc;
-  }
-  .text-mini {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 150%;
-  }
-
-
-  .box {
-    margin-top: 4%;
-  }
-
-  .img-phone{
-    width: 20%;
-    height: 20% ;
-    margin-left: 10%;
-  }
-
-}
 

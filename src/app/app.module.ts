@@ -7,6 +7,11 @@ import { AboutComponent } from './about/about.component';
 import {ScrollToModule} from '@nicky-lenaers/ngx-scroll-to';
 import { UsersComponent } from './users/users.component';
 import { ChangesComponent } from './changes/changes.component';
+import {MatGridListModule} from '@angular/material';
+import { PlanetsComponent } from './planets/planets.component';
+import { TeamComponent } from './team/team.component';
+import {MatCardModule} from '@angular/material/card';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +19,16 @@ import { ChangesComponent } from './changes/changes.component';
     HomeComponent,
     AboutComponent,
     UsersComponent,
-    ChangesComponent
+    ChangesComponent,
+    PlanetsComponent,
+    TeamComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    ScrollToModule.forRoot()
+    ScrollToModule.forRoot(),
+    MatGridListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

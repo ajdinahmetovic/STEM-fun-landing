@@ -19,10 +19,13 @@
         <a class="nav-link " [ngx-scroll-to]="'changes'">Changes</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">STEM</a>
+        <a class="nav-link" [ngx-scroll-to]="'planets'">STEM</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" [ngx-scroll-to]="'team'">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [ngx-scroll-to]="'footer'">Contact</a>
       </li>
     </ul>
   </div>
@@ -34,3 +37,6 @@
 <app-users id="users"></app-users>
 <br>
 <app-changes id="changes"></app-changes>
+<app-planets id="planets"></app-planets>
+<app-team id="team"></app-team>
+<app-footer id="footer"></app-footer>
